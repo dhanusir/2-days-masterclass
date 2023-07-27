@@ -13,8 +13,134 @@ body {
 
 .container {
   max-width: 920px;
-  margin: 100px auto;
+  margin: 60px auto;
 }
+
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 3rem;
+}
+.header__logo__wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  height: 150px;
+  border-radius: 50%;
+  flex-basis: 30%;
+}
+.header__username {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 2rem;
+}
+.header__info__wrapper {
+  flex-basis: 60%;
+}
+.header__info__top {
+  display: flex;
+  gap: 8px;
+}
+.header__btn {
+  padding: 6px 10px;
+  border: 0;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.btn__follow {
+  background-color: rgb(0, 149, 246);
+  color: #fff;
+}
+.btn__more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.btn__more__dot {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #555;
+}
+.header__stats__item__figure {
+  font-weight: 600;
+}
+.header__stats {
+  display: flex;
+  margin: 10px 0;
+  gap: 2rem;
+}
+.header__description {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.header__description__title {
+  font-size: 15px;
+}
+.header__description__subtitle {
+  color: #555;
+}
+.header_description__bio a {
+  text-decoration: none;
+  color: rgb(0, 55, 107);
+}
+.header__description__link {
+  margin: 10px 0;
+}
+.header__description__link__img {
+  height: 15px;
+  vertical-align: middle;
+}
+.header__description__link a {
+  color: rgb(0, 55, 107);
+  text-decoration: none;
+}
+
+.header__followed__by {
+  color: #777;
+  font-size: 14px;
+}
+.header__followed__by a {
+  color: #111;
+  text-decoration: none;
+}
+
+
+/* highlights */
+.highlights__wrapper {
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.highlight__item {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+}
+.highlight__item__img {
+  height: 100%;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 2px;
+}
+.highligh__item__label {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+
+
+/* posts */
 .post__item {
   height: 300px;
   width: 300px;
